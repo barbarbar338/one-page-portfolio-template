@@ -47,4 +47,4 @@ CONFIGURING
 }
 ```
 
-<p>And, ta da! You have yourself a new personal webpage :P</p>
+<p>And, tada! Now you have your own personal webpage :P</p>
