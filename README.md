@@ -5,6 +5,8 @@ FULLY CONFIGURABLE ONE PAGE HANDLEBARS WEBSITE
 <p>Here is a simple example of using Handlebars with Express. Feel free to use this example (but if you use it please let me know)</p>
 <p>You can configure almost everything in this project with only one file called "config.json" lol</p>
 <p>if you fill in the file correctly site becomes completely customized for you (no need to handle other files :3)</p>
+<p>[Click here for Glitch Project](https://glitch.com/~fully-configurable-webpage)</p>
+<p>[Click here for Live Example](https://example.is-my.fun/)</p>
 
 CONFIGURING
 ===========
