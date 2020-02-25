@@ -1,0 +1,15 @@
+<title>{{config.name}} - ERROR</title>
+<main>
+    <div class="container">
+        <div class="alert alert-danger mt-3" role="alert">
+            <p class="h3">Error: {{statuscode}}</p>
+            <p class="h5">{{message}}</p>
+        </div>
+        <button class="btn btn-primary" onclick="goBack()">Go Back</button>
+        <script>
+            function goBack() {
+              window.history.back();
+            }
+        </script>
+    </div>
+</main>

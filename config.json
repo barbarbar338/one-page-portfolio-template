@@ -1,17 +1,3 @@
-FULLY CONFIGURABLE ONE PAGE HANDLEBARS WEBSITE
-==============================================
-<hr>
-
-<p>Here is a simple example of using Handlebars with Express. Feel free to use this example (but if you use it please let me know)</p>
-<p>You can configure almost everything in this project with only one file called "config.json" lol</p>
-<p>if you fill in the file correctly site becomes completely customized for you (no need to handle other files :3)</p>
-
-CONFIGURING
-===========
-<hr>
-<p>You should edit the file named config.json as follows</p>
-
-```js
 {
   "desc": "PROMOTE YOURSELF HERE",
   "tags": "site_tag_1, site_tag_2",
@@ -45,6 +31,3 @@ CONFIGURING
   ]
 
 }
-```
-
-<p>And, ta da! You have yourself a new personal webpage :P</p>
