@@ -1,18 +1,14 @@
-FULLY CONFIGURABLE ONE PAGE HANDLEBARS WEBSITE
-==============================================
-<hr>
+# FULLY CONFIGURABLE ONE PAGE HANDLEBARS WEBSITE
 
-<p>Here is a simple example of using Handlebars with Express. Feel free to use this example (but if you use it please let me know)</p>
-<p>You can configure almost everything in this project with only one file called "config.json" lol</p>
-<p>if you fill in the file correctly site becomes completely customized for you (no need to handle other files :3)</p>
-<p>[Click here for Glitch Project](https://glitch.com/~fully-configurable-webpage)</p>
-<p>[Click here for Live Example](https://example.is-my.fun/)</p>
+Here is a simple example of using Handlebars with Express. Feel free to use this example (but if you use it please let me know)
+You can configure almost everything in this project with only one file called "config.json" lol
+if you fill in the file correctly site becomes completely customized for you (no need to handle other files :3)
+[Click here for Glitch Project](https://glitch.com/~fully-configurable-webpage)
+[Click here for Live Example](https://example.is-my.fun/)
 
-CONFIGURING
-===========
-<hr>
-<p>You should edit the file named config.json as follows</p>
+# CONFIGURATING
 
+You should edit the file named config.json as follows
 ```js
 {
   "desc": "PROMOTE YOURSELF HERE",
@@ -48,5 +44,4 @@ CONFIGURING
 
 }
 ```
-
-<p>And, tada! Now you have your own personal webpage :P</p>
+And, tada! Now you have your own personal webpage :P
