@@ -3,8 +3,8 @@
 Here is a simple example of using Handlebars with Express. Feel free to use this example (but if you use it please let me know)<br>
 You can configure almost everything in this project with only one file called "config.json" lol<br>
 if you fill in the file correctly site becomes completely customized for you (no need to handle other files :3)<br>
-[Click here for Glitch Project](https://glitch.com/~fully-configurable-webpage)<br>
-[Click here for Live Example](https://example.is-my.fun/)
+
+![example](https://barbarbar338.is-my.fun/f/3Zz7QgXL.png)
 
 # CONFIGURATING
 
