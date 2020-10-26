@@ -1,48 +1,53 @@
 <title>{{config.name}} - Home Page</title>
 <div class="split left">
-  <section class="centered">
-    <h1 class="text-pink">About Me</h1>
-    <p class="h5">{{config.desc}}</p>
-    <p><small class="text-muted">&copy; <script>document.write(new Date().getFullYear());</script> All Rights Reserved<br>Made with <i class="fas fa-heart" style="color: #da284b"></i> by Barış DEMİRCİ</small></p>
-  </section>
+	<section class="centered">
+		<h1 class="text-pink">About Me</h1>
+		<p class="h5">{{config.desc}}</p>
+		<p>
+			<small class="text-muted">
+				&copy; <script>
+					document.write(new Date().getFullYear());
+				</script> All Rights Reserved<br>Made with <i class="fas fa-heart" style="color: #da284b"></i> by Barış DEMİRCİ
+			</small></p>
+	</section>
 </div>
 <div class="split middle">
-  <div class="centered">
-    <div class="card hovercard">
-      <div class="cardheader" style="background: url('{{config.custom_banner}}');"></div>
-        <div class="avatar"><img alt="Avatar" src="{{config.icon_url}}"></div>
-        <div class="info">
-            <div class="title"><p class="text-pink">{{config.name}}</p></div>
-            <div class="desc text-muted">{{config.location}}</div>
-            <div class="desc"><strong>{{config.title}}</strong></div>
-        </div>
-        <div class="bottom">
-          <a class="btn btn-primary btn-twitter btn-sm" href="https://twitter.com/{{config.acc.twitter}}"><i class="fa fa-twitter"></i></a>
-          <a class="btn btn-danger btn-sm" rel="publisher" href="https://www.instagram.com/{{config.acc.insta}}/"><i class="fa fa-instagram"></i></a>
-          <a class="btn btn-warning btn-sm" rel="publisher" href="https://github.com/{{config.acc.github}}"><i class="fa fa-github"></i></a>
-          <a class="btn btn-danger btn-sm" rel="publisher" href="{{config.acc.youtube}}"><i class="fa fa-youtube"></i></a>
-          <a class="btn btn-primary btn-sm" rel="publisher" href="https://discordapp.com/users/{{config.acc.discord_id}}"><i class="fab fa-discord"></i></a>  
-        </div>
-      </div>
-    </div>
-  </div>
+	<div class="centered">
+		<div class="card hovercard">
+			<div class="cardheader" style="background: url('{{config.custom_banner}}');"></div>
+			<div class="avatar"><img alt="Avatar" src="{{config.icon_url}}"></div>
+			<div class="info">
+				<div class="title"><p class="text-pink">{{config.name}}</p></div>
+				<div class="desc text-muted">{{config.location}}</div>
+				<div class="desc"><strong>{{config.title}}</strong></div>
+			</div>
+			<div class="bottom">
+				<a class="btn btn-primary btn-twitter btn-sm" href="https://twitter.com/{{config.acc.twitter}}"><i class="fa fa-twitter"></i></a>
+				<a class="btn btn-danger btn-sm" rel="publisher" href="https://www.instagram.com/{{config.acc.insta}}/"><i class="fa fa-instagram"></i></a>
+				<a class="btn btn-warning btn-sm" rel="publisher" href="https://github.com/{{config.acc.github}}"><i class="fa fa-github"></i></a>
+				<a class="btn btn-danger btn-sm" rel="publisher" href="{{config.acc.youtube}}"><i class="fa fa-youtube"></i></a>
+				<a class="btn btn-primary btn-sm" rel="publisher" href="https://discordapp.com/users/{{config.acc.discord_id}}"><i class="fab fa-discord"></i></a>  
+			</div>
+		</div>
+	</div>
+</div>
 <div class="split right">
-  <div class="vert">
-    <div class="row">
-      <div class="col-lg-8 mx-auto"><br>
-        <h2 class="text-pink">Song of the Day:</h2>
-        <iframe width="100%" height="100%" src="{{song}}" style="border: none;"></iframe>
-      </div>
-    </div>
-  </div>
-  <div class="vert">
-      <div class="row">
-        <div class="col-lg-8 mx-auto"><br>
-          <h2 class="text-pink">Other Links:</h2>
-          {{#each config.links}}
-            <p class="lead"><a href="{{this.url}}">{{this.name}}</a></p>
-          {{/each}}
-        </div>
-      </div>
-  </div>  
+	<div class="vert">
+		<div class="row">
+			<div class="col-lg-8 mx-auto"><br>
+				<h2 class="text-pink">Song of the Day:</h2>
+				<iframe width="100%" height="100%" src="{{song}}" style="border: none;"></iframe>
+			</div>
+		</div>
+	</div>
+	<div class="vert">
+		<div class="row">
+			<div class="col-lg-8 mx-auto"><br>
+			<h2 class="text-pink">Other Links:</h2>
+			{{#each config.links}}
+			<p class="lead"><a href="{{this.url}}">{{this.name}}</a></p>
+			{{/each}}
+			</div>
+		</div>
+	</div>  
 </div>
